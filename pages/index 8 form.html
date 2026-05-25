@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>  
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form>
+        Nama Depan: <input type="text"><br/>
+        Nama Belakang: <input type="text"><br/>
+        Password: <input type="password"><br/>
+        Email: <input type="email"><br/>
+        
+        <!-- Pilih salat satu -->
+        <h1>Jenis Kelamin</h1>
+        <input type="radio" name="Jenis Kelamin" value="Laki-laki"><label for="Laki-laki">Laki-laki</label><br/>
+        <input type="radio" name="Jenis Kelamin" value="Perempuan"><label for="Perempuan">Perempuan</label><br/>
+        <br/>
+        
+        <!-- ceklist atau pilih lebih dari satu -->
+        <h1>Checkbox</h1>
+        <input type=checkbox name="Musik" value="Dangdut"><label for="Dangdut">Dangdut</label><br/>
+        <input type=checkbox name="Musik" value="Reggae"><label for="Reggae">Reggae</label><br/>
+        <input type=checkbox name="Musik" value="Jazz"><label for="Jazz">Jazz</label><br/>
+        <input type=checkbox name="Musik" value="Gambus"><label for="Gambus">Gambus</label><br/>
+        <br/>
+        
+        <!-- Dropdown List -->
+        <h1>Dropdown List</h1>
+        <select name="Pekerjaan">
+            <option value="Mahasiswa">Mahasiswa</option>
+            <option value="Dosen">Dosen</option>
+            <option value="Tendik">Tendik</option>
+        </select>
+        <br/>
+        
+        <!-- Upload File -->
+        <h1>Upload File</h1>
+        <input type="file" name="foto" value="Upload Foto">
+        <br/>
+        <br/>
+        
+        <input type="button" name="submit" value="Submit">
+    </form>
+
+</body> 
+</html>
