@@ -1,0 +1,10 @@
+{
+    "emmet.triggerExpansionOnTab": true,
+    "editor.inlineSuggest.edits.showCollapsed": true,
+    "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on"
+    },
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "editor.quickSuggestionsDelay": 0
+}
