@@ -1,0 +1,23 @@
+h1 {
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    color: darkorange;
+    font-weight: 700;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    font-family: calibri;
+    text-align: justify;
+    line-height: 1.5;
+    word-spacing: 0.5em;
+}
+
+i {
+    color: red;
+}
+
+b {
+    color: blueviolet;
+}
