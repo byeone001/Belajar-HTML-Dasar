@@ -1,0 +1,45 @@
+/* Universal Selector */
+*{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* type selector */
+h1{
+font-size: 50px;
+color:red
+}
+
+/* classselector */
+.artikel{
+font-size: 25px;
+}
+
+.isi-artikel{
+text-align: justify;
+font-size: 18px;
+color:rgb(0, 0, 0);
+}
+
+.credit{
+font-size: 12px;
+color:rgb(91, 60, 3);
+}
+
+.penulis{
+font-size: 12px;
+color:rgb(86, 237, 157);
+}
+
+.tanggal{
+font-size: 12px;
+color:rgb(242, 4, 4);
+}
+
+#artikel-1{
+color:red;
+}
+
+/* child selector */
+p>span{
+color:blue;
+}
